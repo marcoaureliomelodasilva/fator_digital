@@ -73,38 +73,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
-$db['default'] = array(
-	'dsn'      => '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'db_fator_digital',
-	'dbdriver' => 'mysqli',
-	'dbprefix' => '',
-	'pconnect' => TRUE,
-	'db_debug' => TRUE,
-	'cache_on' => FALSE,
-	'cachedir' => '',
-	'char_set' => 'utf8',
-	'dbcollat' => 'utf8_general_ci',
-	'swap_pre' => '',
-	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
-	'failover' => array(),
-	'save_queries' => TRUE
-);
-
-
 // $db['default'] = array(
 // 	'dsn'      => '',
-// 	'hostname' => 'db-fator-digita.mysql.uhserver.com',
-// 	'username' => 'user_app_fd',
-// 	'password' => 'xU2S@1a4A2dB',
-// 	'database' => 'db_fator_digita',
+// 	'hostname' => 'localhost',
+// 	'username' => 'root',
+// 	'password' => '',
+// 	'database' => 'db_fator_digital',
 // 	'dbdriver' => 'mysqli',
 // 	'dbprefix' => '',
-// 	'pconnect' => FALSE,
+// 	'pconnect' => TRUE,
 // 	'db_debug' => TRUE,
 // 	'cache_on' => FALSE,
 // 	'cachedir' => '',
@@ -117,3 +94,26 @@ $db['default'] = array(
 // 	'failover' => array(),
 // 	'save_queries' => TRUE
 // );
+
+
+$db['default'] = array(
+	'dsn'      => '',
+	'hostname' => 'db-fator-digita.mysql.uhserver.com',
+	'username' => 'user_app_fd',
+	'password' => 'xU2S@1a4A2dB',
+	'database' => 'db_fator_digita',
+	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => TRUE,
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => TRUE
+);
